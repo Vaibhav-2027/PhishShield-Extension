@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "PhishShield",
+  "version": "1.0",
+  "description": "Detect phishing websites and alert the user.",
+
+  "permissions": ["tabs", "storage", "activeTab"],
+  "host_permissions": ["<all_urls>", "https://safebrowsing.googleapis.com/*"],
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icons/icon48.png"
+    }
+  },
+
+  "icons": {
+    "48": "icons/icon48.png"
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "options_page": "options.html"
+}

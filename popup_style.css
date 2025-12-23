@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #0d1117;
+  color: #f0f6fc;
+  width: 300px;
+}
+
+.container {
+  background: #161b22;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.2);
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #58a6ff;
+}
+
+.status-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+#status {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* Status colors */
+.safe {
+  color: #2ecc71;
+}
+
+.threat {
+  color: #e74c3c;
+}
+
+.loading {
+  color: #f39c12;
+}
